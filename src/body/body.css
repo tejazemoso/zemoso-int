@@ -1,0 +1,11 @@
+.body{
+    position:absolute;
+    top:59px;
+}
+.text{
+    position: absolute;
+    left: 264px;
+    top: 145px;
+    width:fit-content;
+    color: #03314B;
+}
