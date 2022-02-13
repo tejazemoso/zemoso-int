@@ -71,7 +71,7 @@
     "@storybook/preset-create-react-app": "^4.0.0",
     "@storybook/react": "^6.1.21",
     "webpack": "^5.67.0"
-  }
+  },
   "collectCoverageFrom": [
       "**/*.{js,jsx}",
       "**/*.{ts,tsx}",
@@ -81,4 +81,5 @@
       "!**/src/App.tsx",
       "!**/src/reportWebVitals.ts",
       "!**/src/services/**"
+  ]
 }
