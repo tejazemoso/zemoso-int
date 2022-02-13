@@ -1,0 +1,48 @@
+.header{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FFFFFF;
+}
+.header-logo{
+position: absolute;
+left: 250px;
+top: 40px;
+bottom: 30px;
+height:26px;
+width:124.09px;
+}
+.header-logo:hover{
+    cursor:pointer;
+}
+.search{
+position: absolute;
+left: 417px;
+right: 7.03%;
+top: 40px;
+bottom: 33px;
+background: white;
+}
+.my-library{
+position: absolute;
+left: 620px;
+right: 53.33%;
+top: 40px;
+bottom: 33px;
+width:fit-content;
+color: #03314B;
+}
+.my-library:hover{
+    cursor:pointer;
+}
+.explore{
+    position:absolute;
+    left: 479px;
+    top: 33px;
+    bottom:33px;
+    height:57px;
+    width:20px;
+    z-index: 1;
+}

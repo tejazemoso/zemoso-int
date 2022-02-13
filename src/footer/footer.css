@@ -1,0 +1,133 @@
+.footer {
+  position: absolute;
+  padding: 24px 24px 24px 244px;
+  background: #f1f6f4;
+  top:1440px;
+}
+.logoText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 378px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+.logo {
+  position: static;
+  width: 99.1px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.blue-text {
+  position: static;
+  width: 378px;
+  height: 64px;
+  left: 0px;
+  top: 56px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0365f2;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.site-map {
+  position: static;
+  width: 546px;
+  height: 22px;
+  left: 244px;
+  top: 310px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6d787e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 542px;
+  height: 224px;
+  left: 410px;
+  top: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+.heading {
+  position: static;
+  width: 86px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #03314b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.items {
+  position: static;
+  width: 214px;
+  height: 24px;
+  left: 0px;
+  top: 80px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d787e;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.list {
+  list-style-type: none;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 952px;
+  height: 224px;
+  left: 244px;
+  top: 38px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
