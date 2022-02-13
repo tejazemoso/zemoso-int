@@ -4,8 +4,8 @@ import "./App.css";
 import Header from "./header/header";
 import Footer from "./footer/footer";
 import Body from "./body/body";
-import Entrepreneur from "./Entrepreneurship/Entrepreneurship";
-import BookPage from "./Book/book";
+import Entrepreneur from "./Entrepreneurship/Entrepreneur";
+import BookPage from "./Book/MediaControlCard";
 
 
 export default function App() {

@@ -1,7 +1,6 @@
-import { Typography } from '@mui/material';
+import { Typography,Grid } from '@mui/material';
 import React from 'react';
 import "./footer.css";
-import { Grid } from '@mui/material';
 const editorial=['Editorial','Book lists','What is Nonfiction?','What to read next?','Benefits of reading'];
 const pricing=['Useful links','Pricing','Blinkist business','Gift cards','Blinkist magazine','Contact & help'];
 const company=['Company','About','Careers','Partners','Code of conduct'];
@@ -14,7 +13,7 @@ function SiteMap(){
 }
 function List(props: any){
     const array=props.list;
-    let array1:Array<String>=array.slice(1);
+    let array1:Array<string>=array.slice(1);
     return (<span className='navigation'>
         <ul className="list">
             <li className='heading'>{array[0]}</li>

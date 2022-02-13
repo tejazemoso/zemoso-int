@@ -11,8 +11,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import {useNavigate} from 'react-router-dom';
-import LogoutButton from './logout';
-import LoginButton from './login';
+import LogoutButton from './LogoutButton';
+import LoginButton from './LoginButton';
 
 function Logo(){
   let navigate=useNavigate();
@@ -27,7 +27,7 @@ function Search(){
   const anchorRef = React.useRef<HTMLButtonElement>(null);
 
   const handleToggle = () => {
-    setOpen((prevOpen) => !prevOpen);
+   setOpen((prevOpen) => !prevOpen);
     icon ? setIcon(0) : setIcon(1);
   };
 
@@ -57,7 +57,7 @@ function Search(){
   }
   
   function TabPanel(props: TabPanelProps) {
-    const { children, value, index, ...other } = props;
+    const { children, index, ...other } = props;
   
     return (
       <div
@@ -161,7 +161,7 @@ function Search(){
                     style={{justifyContent:'center',background: '#F1F6F4',
                     }}
                   >
-                    <Grid container rowGap={1} spacing={1}>{categories.map((item:String,index:number)=>
+                    <Grid container rowGap={1} spacing={1}>{categories.map((item:string,index:number)=>
                       {return(<Grid item xs={12} sm={6} md={4}>
                       <MenuItem onClick={handleClose} style={{padding:'10px'}}>
                       <Button style={{color:'black',textTransform:'none'}} onClick={()=>navigate('/Entrepreneurship')}>

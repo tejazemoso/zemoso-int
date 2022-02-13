@@ -16,7 +16,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import TimelineIcon from "@mui/icons-material/Timeline";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
-export let categories:Array<String> = [
+export let categories:Array<string> = [
     "Entrepreneurship",
     "Politics",
     "Marketing & Sales",

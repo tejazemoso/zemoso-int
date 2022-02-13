@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import SearchIcon from '@mui/icons-material/Search';
 import { Grid, Input } from '@mui/material';
 import { books } from '../body/books';
-import BookCard from '../body/card';
+import BookCard from '../body/BookCard';
 import exploreCard from './explore-card-image.png';
 
 function Banner(){

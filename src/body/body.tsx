@@ -1,14 +1,12 @@
-import { Typography } from "@mui/material";
+import { Typography,Grid } from "@mui/material";
 import React from "react";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
-import { Grid } from "@mui/material";
 import './body.css';
-import BookCard from "./card";
+import BookCard from "./BookCard";
 import TabList from "@mui/lab/TabList";
-import { TabContext } from "@mui/lab";
+import { TabContext,TabPanel } from "@mui/lab";
 import {books} from './books';
-import { TabPanel } from "@mui/lab";
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel='stylesheet'></link>
 function Text() {
   return <Typography variant='h1' sx={{position: 'absolute',
