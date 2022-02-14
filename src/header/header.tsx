@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import { Button, Typography,Grid, Popper, Grow, ClickAwayListener, MenuList, Box} from '@mui/material';
 import './header.css';
@@ -24,7 +24,7 @@ function Search(){
 
   function ExploreDialog() {
     const [open, setOpen] = React.useState(false);
-  const anchorRef = React.useRef<HTMLButtonElement>(null);
+    const anchorRef = React.useRef<HTMLButtonElement>(null);
 
   const handleToggle = () => {
    setOpen((prevOpen) => !prevOpen);
@@ -195,12 +195,14 @@ function Library(){
     return <Typography variant='subtitle1' className='my-library'>My Library</Typography>
 }
 export default function Header(){
+    //const [Login,setLogin]=useState(false);
+
     return <AppBar elevation={0} sx={{height:'86px',width:'100%'}} color='transparent' position='static'>
             <Logo/>
             <Search/>
             <ExploreDialog/>
             <Library/>
-            <LoginButton/>
             <LogoutButton/>
+            <LoginButton/>
     </AppBar>
 }

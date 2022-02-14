@@ -7,10 +7,8 @@ import BookCard from "./BookCard";
 import TabList from "@mui/lab/TabList";
 import { TabContext,TabPanel } from "@mui/lab";
 import {books} from './books';
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel='stylesheet'></link>
 function Text() {
   return <Typography variant='h1' sx={{position: 'absolute',
-    left: '264px',
     top: '145px',
     width:'500px',
     color:' #03314B',
@@ -18,15 +16,16 @@ function Text() {
 }
 function BasicTabs() {
   let finished:Array<Object>=[];
-let currentlyReading:Array<Object>=[]
-books.forEach((item)=>{
-  if(item.isFinished===true && item.isInMyLibrary===true){
-    finished.push(item)
+  let currentlyReading:Array<Object>=[]
+  books.forEach((item)=>{
+    if(item.isFinished===true && item.isInMyLibrary===true){
+      finished.push(item)
   }
   else if(item.isFinished===false && item.isInMyLibrary===true){
     currentlyReading.push(item)
   }
 })
+
   const [value, setValue] = React.useState('currently reading');
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
@@ -34,8 +33,7 @@ books.forEach((item)=>{
   };
   return (
     <Box sx={{ position: 'absolute',
-        width: '912px',
-        left: '264px',
+        width:'1000px',
         top: '250px',
          }}>
       <TabContext value={value}>

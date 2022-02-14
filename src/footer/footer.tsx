@@ -25,16 +25,16 @@ function Frame(){
     return <div className="frame">
          <LogoText />
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid item xs={4}><List list={editorial}/></Grid>
-        <Grid item xs={4}><List list={pricing}/></Grid>
-        <Grid item xs={4}><List list={company}/></Grid>
+            <Grid item xs={4}><List list={editorial}/></Grid>
+            <Grid item xs={4}><List list={pricing}/></Grid>
+            <Grid item xs={4}><List list={company}/></Grid>
         </Grid>
     </div>
 }
 
 export default function Footer(){
-    return <span className='footer'>
+    return <div className='footer'>
         <Frame />
         <SiteMap />
-    </span>
+    </div>
 }

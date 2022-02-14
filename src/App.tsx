@@ -6,20 +6,19 @@ import Footer from "./footer/footer";
 import Body from "./body/body";
 import Entrepreneur from "./Entrepreneurship/Entrepreneur";
 import BookPage from "./Book/MediaControlCard";
+import { Container } from "@mui/material";
 
 
 export default function App() {
-  return<div style={{position:'sticky'}}>
-   
-  <Router>
-  <Header />
+  return <Router>
+    <Container>
+    <Header />
     <Routes>
       <Route path='/' element={<Body/>}/>
       <Route path='/Entrepreneurship' element={<Entrepreneur/>}/>
       <Route path='/book' element={<BookPage/>}/>
     </Routes>
-    <Footer />
+    </Container>
+    <Container> <Footer /></Container>
   </Router>
-  
-  </div>
 }

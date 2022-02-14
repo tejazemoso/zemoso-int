@@ -78,7 +78,7 @@ function EntrepreneurshipBooks(){
     </div>
 }
 export default function Entrepreneur(){
-    return<div style={{paddingLeft:'264px'}}>
+    return<div>
         <Banner/>
         <Search/>
         <EntrepreneurshipBooks/>

@@ -42,7 +42,7 @@ export default function MediaControlCard() {
   };
   return (<div>
     <Card sx={{ display: 'flex' }} elevation={0}>
-      <Box sx={{ display: 'flex', flexDirection: 'column',paddingLeft:'264px',paddingTop:'100px' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column',paddingTop:'100px' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="body2" style={{fontSize:'16px',color:'#03314B'}}>
             Get the key ideas from
@@ -77,7 +77,7 @@ export default function MediaControlCard() {
         alt="Book image"
       />
     </Card>
-    <Box sx={{ borderBottom: 1, borderColor: 'divider',paddingLeft:'264px',width:'600px',paddingTop:'50px'}}>
+    <Box sx={{ borderBottom: 1, borderColor: 'divider',width:'600px',paddingTop:'50px'}}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
             <Tab label="Synopsis"  style={{textTransform:'none'}}/>
             <Tab label="Who is it for?"  style={{textTransform:'none'}}/>
@@ -86,7 +86,7 @@ export default function MediaControlCard() {
     </Box>
     <div style={{paddingBottom:'100px'}}>
     <TabPanel value={value} index={0}>
-        <Typography variant='body2' style={{fontSize:'16px',width:'600px',paddingLeft:'264px',height:'100px'}} paragraph>
+        <Typography variant='body2' style={{fontSize:'16px',width:'600px',height:'100px'}} paragraph>
         Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.
         </Typography>
     </TabPanel>
